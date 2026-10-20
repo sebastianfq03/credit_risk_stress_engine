@@ -1,0 +1,201 @@
+{
+  "sample_start": "2012-01-01",
+  "sample_end": "2024-12-01",
+  "total_observations": 156,
+  "target_variable": "npl_diff",
+  "raw_stationarity_tests": [
+    {
+      "Variable": "npl_consumer",
+      "ADF Stat": -2.9223,
+      "ADF p-value": 0.0428,
+      "KPSS Stat": 0.7042,
+      "KPSS p-value": 0.0132,
+      "Estacionaria": "Sí",
+      "Diagnóstico": "Estacionaria con quiebre estructural / tendencia determinística"
+    },
+    {
+      "Variable": "policy_rate",
+      "ADF Stat": -3.048,
+      "ADF p-value": 0.0306,
+      "KPSS Stat": 0.2251,
+      "KPSS p-value": 0.1,
+      "Estacionaria": "Sí",
+      "Diagnóstico": "Estacionaria I(0) [ADF rechaza H0, KPSS no rechaza H0]"
+    },
+    {
+      "Variable": "inflation_12m",
+      "ADF Stat": -2.8256,
+      "ADF p-value": 0.0547,
+      "KPSS Stat": 0.3118,
+      "KPSS p-value": 0.1,
+      "Estacionaria": "No",
+      "Diagnóstico": "Inconcluso / Muestra pequeña (ambos fallan en rechazar H0)"
+    },
+    {
+      "Variable": "fx_rate",
+      "ADF Stat": -0.7272,
+      "ADF p-value": 0.8396,
+      "KPSS Stat": 1.7036,
+      "KPSS p-value": 0.01,
+      "Estacionaria": "No",
+      "Diagnóstico": "No estacionaria / Raíz Unitaria I(1) [ADF no rechaza H0, KPSS rechaza H0]"
+    },
+    {
+      "Variable": "gdp_index",
+      "ADF Stat": -1.7344,
+      "ADF p-value": 0.4135,
+      "KPSS Stat": 1.7181,
+      "KPSS p-value": 0.01,
+      "Estacionaria": "No",
+      "Diagnóstico": "No estacionaria / Raíz Unitaria I(1) [ADF no rechaza H0, KPSS rechaza H0]"
+    }
+  ],
+  "transformed_stationarity_tests": [
+    {
+      "Variable": "npl_diff",
+      "ADF Stat": -3.2557,
+      "ADF p-value": 0.017,
+      "KPSS Stat": 0.0444,
+      "KPSS p-value": 0.1,
+      "Estacionaria": "Sí",
+      "Diagnóstico": "Estacionaria I(0) [ADF rechaza H0, KPSS no rechaza H0]"
+    },
+    {
+      "Variable": "npl_level",
+      "ADF Stat": -2.8004,
+      "ADF p-value": 0.0582,
+      "KPSS Stat": 0.6597,
+      "KPSS p-value": 0.0172,
+      "Estacionaria": "No",
+      "Diagnóstico": "No estacionaria / Raíz Unitaria I(1) [ADF no rechaza H0, KPSS rechaza H0]"
+    },
+    {
+      "Variable": "npl_logit",
+      "ADF Stat": -2.8478,
+      "ADF p-value": 0.0518,
+      "KPSS Stat": 0.6356,
+      "KPSS p-value": 0.0194,
+      "Estacionaria": "No",
+      "Diagnóstico": "No estacionaria / Raíz Unitaria I(1) [ADF no rechaza H0, KPSS rechaza H0]"
+    },
+    {
+      "Variable": "d_npl_logit",
+      "ADF Stat": -3.6564,
+      "ADF p-value": 0.0048,
+      "KPSS Stat": 0.0468,
+      "KPSS p-value": 0.1,
+      "Estacionaria": "Sí",
+      "Diagnóstico": "Estacionaria I(0) [ADF rechaza H0, KPSS no rechaza H0]"
+    },
+    {
+      "Variable": "gdp_growth_yoy",
+      "ADF Stat": -3.1702,
+      "ADF p-value": 0.0218,
+      "KPSS Stat": 0.1425,
+      "KPSS p-value": 0.1,
+      "Estacionaria": "Sí",
+      "Diagnóstico": "Estacionaria I(0) [ADF rechaza H0, KPSS no rechaza H0]"
+    },
+    {
+      "Variable": "gdp_growth_mom",
+      "ADF Stat": -8.0947,
+      "ADF p-value": 0.0,
+      "KPSS Stat": 0.0833,
+      "KPSS p-value": 0.1,
+      "Estacionaria": "Sí",
+      "Diagnóstico": "Estacionaria I(0) [ADF rechaza H0, KPSS no rechaza H0]"
+    },
+    {
+      "Variable": "policy_rate_diff",
+      "ADF Stat": -2.8756,
+      "ADF p-value": 0.0483,
+      "KPSS Stat": 0.091,
+      "KPSS p-value": 0.1,
+      "Estacionaria": "Sí",
+      "Diagnóstico": "Estacionaria I(0) [ADF rechaza H0, KPSS no rechaza H0]"
+    },
+    {
+      "Variable": "policy_rate_level",
+      "ADF Stat": -2.9243,
+      "ADF p-value": 0.0426,
+      "KPSS Stat": 0.2468,
+      "KPSS p-value": 0.1,
+      "Estacionaria": "Sí",
+      "Diagnóstico": "Estacionaria I(0) [ADF rechaza H0, KPSS no rechaza H0]"
+    },
+    {
+      "Variable": "inflation_12m",
+      "ADF Stat": -2.532,
+      "ADF p-value": 0.1079,
+      "KPSS Stat": 0.2765,
+      "KPSS p-value": 0.1,
+      "Estacionaria": "No",
+      "Diagnóstico": "Inconcluso / Muestra pequeña (ambos fallan en rechazar H0)"
+    },
+    {
+      "Variable": "inflation_diff",
+      "ADF Stat": -3.2526,
+      "ADF p-value": 0.0171,
+      "KPSS Stat": 0.1225,
+      "KPSS p-value": 0.1,
+      "Estacionaria": "Sí",
+      "Diagnóstico": "Estacionaria I(0) [ADF rechaza H0, KPSS no rechaza H0]"
+    },
+    {
+      "Variable": "fx_depreciation_mom",
+      "ADF Stat": -11.0994,
+      "ADF p-value": 0.0,
+      "KPSS Stat": 0.0925,
+      "KPSS p-value": 0.1,
+      "Estacionaria": "Sí",
+      "Diagnóstico": "Estacionaria I(0) [ADF rechaza H0, KPSS no rechaza H0]"
+    },
+    {
+      "Variable": "fx_depreciation_yoy",
+      "ADF Stat": -2.3202,
+      "ADF p-value": 0.1655,
+      "KPSS Stat": 0.1362,
+      "KPSS p-value": 0.1,
+      "Estacionaria": "No",
+      "Diagnóstico": "Inconcluso / Muestra pequeña (ambos fallan en rechazar H0)"
+    }
+  ],
+  "selected_lags": {
+    "gdp_growth_yoy": {
+      "optimal_lag": 3,
+      "correlation": -0.1896,
+      "is_significant": true,
+      "sign_ok": true
+    },
+    "policy_rate_diff": {
+      "optimal_lag": 8,
+      "correlation": 0.1903,
+      "is_significant": true,
+      "sign_ok": true
+    },
+    "inflation_diff": {
+      "optimal_lag": 9,
+      "correlation": 0.1386,
+      "is_significant": false,
+      "sign_ok": true
+    },
+    "fx_depreciation_mom": {
+      "optimal_lag": 12,
+      "correlation": 0.1064,
+      "is_significant": false,
+      "sign_ok": true
+    }
+  },
+  "final_vifs": {
+    "gdp_growth_yoy_lag3": 1.019,
+    "policy_rate_diff_lag8": 1.148,
+    "inflation_diff_lag9": 1.143,
+    "fx_depreciation_mom_lag12": 1.013
+  },
+  "final_features": [
+    "gdp_growth_yoy_lag3",
+    "policy_rate_diff_lag8",
+    "inflation_diff_lag9",
+    "fx_depreciation_mom_lag12"
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "initial_date": "2024-12-01",
+  "initial_npl_pct": 3.9725,
+  "portfolio_size_mm": 5000.0,
+  "lgd_pct": 75.0,
+  "horizon_months": 12,
+  "impact_summary": [
+    {
+      "scenario_name": "Escenario Base (Consenso BCRP)",
+      "portfolio_size_mm": 5000.0,
+      "lgd_pct": 75.0,
+      "initial_npl_pct": 3.9725,
+      "projected_npl_month12_pct": 3.2905,
+      "peak_npl_pct": 3.8025,
+      "delta_npl_bps": -68.2,
+      "delta_defaulted_exposure_mm": -34.1,
+      "additional_provisions_required_mm": -25.57,
+      "total_provisions_stressed_mm": 123.4,
+      "provision_coverage_delta_pct": -0.5115,
+      "capital_cet1_impact_bps": -51.15
+    },
+    {
+      "scenario_name": "Escenario Adverso Moderado (Estanflación)",
+      "portfolio_size_mm": 5000.0,
+      "lgd_pct": 75.0,
+      "initial_npl_pct": 3.9725,
+      "projected_npl_month12_pct": 3.4938,
+      "peak_npl_pct": 3.8025,
+      "delta_npl_bps": -47.87,
+      "delta_defaulted_exposure_mm": -23.94,
+      "additional_provisions_required_mm": -17.95,
+      "total_provisions_stressed_mm": 131.02,
+      "provision_coverage_delta_pct": -0.359,
+      "capital_cet1_impact_bps": -35.9
+    },
+    {
+      "scenario_name": "Escenario Adverso Severo (Crisis / Recesión)",
+      "portfolio_size_mm": 5000.0,
+      "lgd_pct": 75.0,
+      "initial_npl_pct": 3.9725,
+      "projected_npl_month12_pct": 3.6736,
+      "peak_npl_pct": 3.8025,
+      "delta_npl_bps": -29.89,
+      "delta_defaulted_exposure_mm": -14.95,
+      "additional_provisions_required_mm": -11.21,
+      "total_provisions_stressed_mm": 137.76,
+      "provision_coverage_delta_pct": -0.2242,
+      "capital_cet1_impact_bps": -22.42
+    }
+  ],
+  "trajectories": {
+    "2025-01-01": {
+      "base_npl": 3.8025,
+      "base_lower": 3.3683,
+      "base_upper": 4.2366,
+      "adverse_moderate_npl": 3.8025,
+      "adverse_moderate_lower": 3.3683,
+      "adverse_moderate_upper": 4.2366,
+      "adverse_severe_npl": 3.8025,
+      "adverse_severe_lower": 3.3683,
+      "adverse_severe_upper": 4.2366
+    },
+    "2025-02-01": {
+      "base_npl": 3.7273,
+      "base_lower": 3.1065,
+      "base_upper": 4.348,
+      "adverse_moderate_npl": 3.7273,
+      "adverse_moderate_lower": 3.1065,
+      "adverse_moderate_upper": 4.348,
+      "adverse_severe_npl": 3.7273,
+      "adverse_severe_lower": 3.1065,
+      "adverse_severe_upper": 4.348
+    },
+    "2025-03-01": {
+      "base_npl": 3.7065,
+      "base_lower": 2.9409,
+      "base_upper": 4.4722,
+      "adverse_moderate_npl": 3.7065,
+      "adverse_moderate_lower": 2.9409,
+      "adverse_moderate_upper": 4.4722,
+      "adverse_severe_npl": 3.7065,
+      "adverse_severe_lower": 2.9409,
+      "adverse_severe_upper": 4.4722
+    },
+    "2025-04-01": {
+      "base_npl": 3.5865,
+      "base_lower": 2.6982,
+      "base_upper": 4.4749,
+      "adverse_moderate_npl": 3.5865,
+      "adverse_moderate_lower": 2.6982,
+      "adverse_moderate_upper": 4.4749,
+      "adverse_severe_npl": 3.5865,
+      "adverse_severe_lower": 2.6982,
+      "adverse_severe_upper": 4.4749
+    },
+    "2025-05-01": {
+      "base_npl": 3.5497,
+      "base_lower": 2.5533,
+      "base_upper": 4.5462,
+      "adverse_moderate_npl": 3.5515,
+      "adverse_moderate_lower": 2.555,
+      "adverse_moderate_upper": 4.548,
+      "adverse_severe_npl": 3.5537,
+      "adverse_severe_lower": 2.5572,
+      "adverse_severe_upper": 4.5501
+    },
+    "2025-06-01": {
+      "base_npl": 3.4862,
+      "base_lower": 2.392,
+      "base_upper": 4.5804,
+      "adverse_moderate_npl": 3.4916,
+      "adverse_moderate_lower": 2.3974,
+      "adverse_moderate_upper": 4.5858,
+      "adverse_severe_npl": 3.498,
+      "adverse_severe_lower": 2.4038,
+      "adverse_severe_upper": 4.5922
+    },
+    "2025-07-01": {
+      "base_npl": 3.3276,
+      "base_lower": 2.1437,
+      "base_upper": 4.5116,
+      "adverse_moderate_npl": 3.3383,
+      "adverse_moderate_lower": 2.1543,
+      "adverse_moderate_upper": 4.5223,
+      "adverse_severe_npl": 3.3511,
+      "adverse_severe_lower": 2.1672,
+      "adverse_severe_upper": 4.5351
+    },
+    "2025-08-01": {
+      "base_npl": 3.3372,
+      "base_lower": 2.0698,
+      "base_upper": 4.6046,
+      "adverse_moderate_npl": 3.355,
+      "adverse_moderate_lower": 2.0876,
+      "adverse_moderate_upper": 4.6224,
+      "adverse_severe_npl": 3.3764,
+      "adverse_severe_lower": 2.1089,
+      "adverse_severe_upper": 4.6438
+    },
+    "2025-09-01": {
+      "base_npl": 3.3879,
+      "base_lower": 2.0421,
+      "base_upper": 4.7337,
+      "adverse_moderate_npl": 3.4387,
+      "adverse_moderate_lower": 2.0929,
+      "adverse_moderate_upper": 4.7845,
+      "adverse_severe_npl": 3.4889,
+      "adverse_severe_lower": 2.1431,
+      "adverse_severe_upper": 4.8346
+    },
+    "2025-10-01": {
+      "base_npl": 3.4717,
+      "base_lower": 2.0519,
+      "base_upper": 4.8915,
+      "adverse_moderate_npl": 3.5573,
+      "adverse_moderate_lower": 2.1375,
+      "adverse_moderate_upper": 4.9771,
+      "adverse_severe_npl": 3.6383,
+      "adverse_severe_lower": 2.2185,
+      "adverse_severe_upper": 5.0581
+    },
+    "2025-11-01": {
+      "base_npl": 3.4216,
+      "base_lower": 1.9315,
+      "base_upper": 4.9117,
+      "adverse_moderate_npl": 3.5651,
+      "adverse_moderate_lower": 2.075,
+      "adverse_moderate_upper": 5.0553,
+      "adverse_severe_npl": 3.6945,
+      "adverse_severe_lower": 2.2043,
+      "adverse_severe_upper": 5.1846
+    },
+    "2025-12-01": {
+      "base_npl": 3.2905,
+      "base_lower": 1.7332,
+      "base_upper": 4.8479,
+      "adverse_moderate_npl": 3.4938,
+      "adverse_moderate_lower": 1.9365,
+      "adverse_moderate_upper": 5.0511,
+      "adverse_severe_npl": 3.6736,
+      "adverse_severe_lower": 2.1162,
+      "adverse_severe_upper": 5.2309
+    }
+  }
+}
