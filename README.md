@@ -137,7 +137,7 @@ credit_risk_stress_engine/
 
 ### 1. Clonar y Configurar Entorno
 ```bash
-git clone https://github.com/xcbas/credit_risk_stress_engine.git
+git clone https://github.com/sebastianfq03/credit_risk_stress_engine.git
 cd credit_risk_stress_engine
 python -m venv .venv
 source .venv/bin/activate  # En Windows: .venv\Scripts\activate
